@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sy_expedition_travel_challenge/main_page.dart';
 import 'package:sy_expedition_travel_challenge/styles.dart';
+
+import 'main_page.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         scaffoldBackgroundColor: mainBlack,
       ),
-     // home: MainPage(),
+      home: MainPage(),
     );
   }
 }
