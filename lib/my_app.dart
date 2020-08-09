@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         scaffoldBackgroundColor: mainBlack,
       ),
-      home: MainPage(),
+     // home: MainPage(),
     );
   }
 }
